@@ -1,0 +1,5 @@
+{
+  "appHost": {
+    "path": "src/ShreyShop.AppHost/ShreyShop.AppHost.csproj"
+  }
+}

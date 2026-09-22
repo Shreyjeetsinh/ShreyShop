@@ -1,0 +1,68 @@
+﻿.shreyshop-header {
+    position: relative;
+    max-width: 120rem;
+    margin: auto;
+}
+
+.shreyshop-header.home .shreyshop-header-container {
+    height: 38rem;
+    margin-bottom: 0;
+}
+
+.shreyshop-header .shreyshop-header-container {
+    height: 15rem;
+    margin-bottom: 4rem;
+}
+
+.shreyshop-header-hero {
+    overflow: hidden;
+    position: absolute;
+    max-width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.shreyshop-header-container {
+    position: relative;
+    margin: auto;
+    margin: 0 10rem;
+}
+
+.shreyshop-header-intro {
+    position: absolute;
+    max-width: 48rem;
+    bottom: 3rem;
+    white-space: nowrap;
+}
+
+.shreyshop-header-intro h1 {
+    color: #000;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    margin: 0;
+}
+
+.shreyshop-header-intro p {
+    color: #000;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    margin: 0;
+}
+
+.shreyshop-header .logo-header {
+    color: black;
+    margin-right: auto;
+}
+
+.shreyshop-header-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 1.25rem;
+    gap: 1.5rem;
+}

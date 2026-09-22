@@ -1,0 +1,50 @@
+@using Microsoft.Extensions.Configuration
+@inject IConfiguration Configuration
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+
+    <title>Identity | ShreyShop</title>
+
+    <link rel="icon" type="image/svg+xml" href="~/favicon.svg">
+    <link rel="shortcut icon" type="image/svg+xml" href="~/favicon.svg" />
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <div class="identity-shell">
+        <header class="shreyshop-header">
+            <div class="shreyshop-header-container">
+                <nav class="shreyshop-header-navbar">
+                    <a href="@Configuration["WebAppClient"]" class='logo logo-header'>
+                        <img alt="ShreyShop" src='/images/logo-header.svg' />
+                    </a>
+                </nav>
+            </div>
+        </header>
+
+        <main class="content">
+            @RenderBody()
+        </main>
+
+        <footer class='shreyshop-footer'>
+            <div class='shreyshop-footer-content'>
+                <div class='shreyshop-footer-row'>
+                    <img role="presentation" src='/images/logo-footer.svg' class='logo logo-footer' />
+                    <p>© ShreyShop<br />Developed by <a href="https://www.linkedin.com/in/shreyjeetsinh/" target="_blank" rel="noopener noreferrer">Shreyjeetsinh Dodiya</a></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.slim.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>

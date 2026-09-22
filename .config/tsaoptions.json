@@ -1,0 +1,12 @@
+{
+    "areaPath": "DevDiv\\ASP.NET Core\\Policy Violations",
+    "codebaseName": "ShreyShop",
+    "instanceUrl": "https://devdiv.visualstudio.com/",
+    "iterationPath": "DevDiv",
+    "notificationAliases": [
+      "aspnetcore-build@microsoft.com"
+    ],
+    "projectName": "DEVDIV",
+    "repositoryName": "ShreyShop",
+    "template": "TFSDEVDIV"
+  }
